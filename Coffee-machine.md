@@ -19,10 +19,19 @@ Here are the steps to follow for this exercise:
 - Apply encapsulation by making the properties of the `CoffeeMachine` class private. Use Dart's naming convention of prefixing private properties with an underscore (_) to indicate that they should not be accessed directly from outside the class.
 - Implement getter and setter methods for the private properties to allow controlled access and modification of the coffee machine's inventory.
 
-###  Step 4: Coffee Ordering
+### Step 4: Coffee Ordering
 
 - Add a method in the `CoffeeMachine` class called `orderCoffee`. This method should take parameters like `coffeeType` and `sugarAmount` to represent the user's coffee preferences.
 - Inside the `orderCoffee` method, use conditional statements to determine the coffee recipe based on the user's preferences. For example, if the user orders a cappuccino, the method should adjust the inventory levels accordingly (e.g., decrease the coffee beans and milk).
 - Display a message indicating the successful preparation of the coffee.
+
+### Step 5: Testing
+
+- Test your coffee machine program by ordering different types of coffee with various preferences. Make sure to print the coffee machine's inventory levels before and after each coffee order to verify that the inventory is updated correctly.
+
+### Step 6: Optional Enhancements
+
+- Once you have implemented the basic functionality, you can consider adding additional features to enhance your coffee machine program. For example, you can include methods to refill the coffee machine's inventory, check the available inventory levels, or create a menu for the user to select their coffee preferences.
+
 
 By completing this exercise, you will gain a better understanding of how to implement OOP principles in Dart while building a practical coffee machine program. This exercise will reinforce your knowledge of classes, objects, and encapsulation, allowing you to create well-structured and modular code. Happy coding!
