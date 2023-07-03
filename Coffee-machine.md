@@ -1,6 +1,6 @@
 ## Exercise Description: Building a Coffee Machine Program with Dart.
 
-In this exercise, you will create a coffee machine program using the Dart programming language. This program will allow users to interact with a coffee machine, order different types of coffee, and manage the coffee machine's inventory. As you work on this exercise, you will also learn and implement important Object-Oriented Programming (OOP) principles, including classes, objects, and encapsulation.
+In this exercise, you will create a coffee machine program using the Dart programming language. This program will allow users to interact with a coffee machine, order different types of coffee, and manage the coffee machine's inventory.
 
 Here are the steps to follow for this exercise:
 
