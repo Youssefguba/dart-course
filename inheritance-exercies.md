@@ -15,3 +15,33 @@ Welcome to the BankAccount class exercise! In this exercise, you will be impleme
    - "Interest rate: [interestRate]"
 
 Remember to test your implementation by creating instances of the `BankAccount` and `SavingAccount` classes and calling each of the newly added methods. You can also test the inheritance by creating both types of accounts and observing the differences in behavior. Good luck!
+
+## Starter Project
+
+```dart
+class BankAccount {
+  static String bankName = 'ABC';
+
+  final String accountNumber;
+  final String accountHolder;
+  double _accountBalance;
+  bool? hasInterest;
+
+  BankAccount({
+    required this.accountHolder,
+    required this.accountNumber,
+    required double accountBalance,
+    this.hasInterest,
+  }) : _accountBalance = accountBalance;
+
+   // 1. Add `deposit` method here
+
+   // 2. Add `withdraw` method here
+
+   // 3. Add `displayInfo` method here
+
+}
+
+   // 4. Create a `SavingAccount` class here
+
+```
