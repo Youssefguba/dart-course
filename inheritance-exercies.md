@@ -1,4 +1,6 @@
-Welcome to the BankAccount class exercise! In this exercise, you will be implementing inheritance and expanding the functionality of the `BankAccount` class by creating a subclass called `SavingAccount`. Follow the instructions below to complete the exercise:
+## BankAccount class exercise!
+
+In this exercise, you will be implementing inheritance and expanding the functionality of the `BankAccount` class by creating a subclass called `SavingAccount`. Follow the instructions below to complete the exercise:
 
 1. Add the `deposit` method: Inside the `BankAccount` class, implement a method called `deposit` that takes a `double` parameter named `amount`. This method should increase the `_accountBalance` by the `amount` and print the updated balance. The message to print should follow this format: `"$amount deposited. New balance: $_accountBalance"`. Don't forget to update the access modifier of `_accountBalance` to private.
 
