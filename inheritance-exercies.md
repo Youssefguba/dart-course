@@ -18,7 +18,7 @@ In this exercise, you will be implementing inheritance and expanding the functio
 
 Remember to test your implementation by creating instances of the `BankAccount` and `SavingAccount` classes and calling each of the newly added methods. You can also test the inheritance by creating both types of accounts and observing the differences in behavior. Good luck!
 
-## Starter Project
+### Starter Project
 
 ```dart
 class BankAccount {
